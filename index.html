@@ -3,82 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CYOA</title>
+    <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="cyoa-showcase-style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                    <a class="navbar-brand d-flex align-items-center" href="https://www.punahou.edu" target="_blank">
+                        <img src="hala_yellow.png" alt="Yellow Hala Logo" height="40" class="me-2">
+                    </a>
+                    <a class="navbar-brand d-flex align-items-center" href="https://www.punahou.edu/design-technology-and-engineering" target="_blank">
+                        <img src="DTE.png" alt="DTE Logo" height="40">
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galleries.html">Galleries</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <div class="container my-5">
-        <h1 class="text-center mb-4">Choose Your Own Adventure</h1>
-        <h4 class="text-center mb-5">Projects by Punahou's Intro to Computer Science students (fall 2024)</h4>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card project-card h-100">
-                    <img src="showcase-imgs/twix-img.png" class="card-img-top card-image" alt="Twix Project">
-                    <div class="card-body">
-                        <p class="card-text">Happy Halloween! You're a middle school student going trick-or-treating
-                            with a friend in your small town of Cornville in the state of Vermont....</p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between align-items-center">
-                        <h6 class="card-title mb-0"><i>created by Twix</i></h6>
-                        <a href="https://berman-punahou.github.io/cyoa-twix-public/" class="btn btn-primary btn-sm"><b>Play Now</b></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card project-card h-100">
-                    <img src="showcase-imgs/unexpected.png" class="card-img-top card-image" alt="Team Unexpected Project">
-                    <div class="card-body"> 
-                        <p class="card-text">You have been selected to represent your country, Cheesetopia,
-                            at the Conference of Nations to discuss the state of the world.</p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between align-items-center">
-                        <h6 class="card-title mb-0"><i>created by Team Unexpected</i></h6>
-                        <a href="https://berman-punahou.github.io/cyoa-unexpected-public/" class="btn btn-primary btn-sm"><b>Play Now</b></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card project-card h-100">
-                    <img src="showcase-imgs/plastics.png" class="card-img-top card-image" alt="The Plastics Project">
-                    <div class="card-body">
-                        <p class="card-text">Enter if you dare.</p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between align-items-center">
-                        <h6 class="card-title mb-0"><i>created by The Plastics</i></h6>
-                        <a href="https://berman-punahou.github.io/cyoa-the-plastics-public/" class="btn btn-primary btn-sm"><b>Play Now</b></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card project-card h-100">
-                    <img src="showcase-imgs/5guys.png" class="card-img-top card-image" alt="5 Guys Project">
-                    <div class="card-body">
-                        <p class="card-text">We are stoked to have you as the star of the show!
-                            We hope you find your soulmate here and create a beginning to a new life.</p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between align-items-center">
-                        <h6 class="card-title mb-0"><i>created by 5 Guys</i></h6>
-                        <a href="https://berman-punahou.github.io/cyoa-4-guys-public/" class="btn btn-primary btn-sm"><b>Play Now</b></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card project-card h-100">
-                    <img src="showcase-imgs/quest.png" class="card-img-top card-image" alt="Quest Masters Project">
-                    <div class="card-body">
-                        <p class="card-text">Your goal is to try to escape the abandoned hospital, with many obstacles in your way.</p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between align-items-center">
-                        <h6 class="card-title mb-0"><i>created by Quest Masters</i></h6>
-                        <a href="https://berman-punahou.github.io/cyoa-quest-masters-public/index.html" class="btn btn-primary btn-sm"><b>Play Now</b></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <h1 class="text-center mb-4 coda">Introduction to Computer Science</h1>
+        <h4 class="text-center mb-5 poppins"><i>Creative Programming Projects by Punahou Students</i></h4>
+        <p class="text-center">This website highlights the creativity and ingenuity of students in Punahou's Intro to Computer 
+            Science course. Through interactive stories, dynamic art, and algorithmic designs, students have 
+            transformed their ideas into engaging, dynamic experiences. Explore the projects to see how programming
+            can bring creativity to life.</p>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
