@@ -6,7 +6,7 @@
 
 
 body {
-    background: linear-gradient(to bottom, #e0e0e0, #f0f0f0, #f8f8f8);
+    background: rgba(255, 255, 255, 0);
     min-height: 100vh;
     font-family: 'Source Sans Pro', Arial, sans-serif;
 
@@ -14,6 +14,16 @@ body {
     padding-top: 60px;
 
 }
+
+.parallax {
+    background: linear-gradient(to bottom, #f0f0f0, #ffffff, #d3d3d3);
+    height: 500px; /* Adjust height as needed */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -181,6 +191,9 @@ h1, h4 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 15px;
     overflow: hidden;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 200;
+    font-style: regular;
 }
 
 .gallery-card:hover {
@@ -214,11 +227,12 @@ h1, h4 {
 }
 
 .gallery-card-title {
+    text-align: center;
     color: #2f3542;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     margin-bottom: 1rem;
-}
+  }
 
 .coda {
     font-family: "Coda", system-ui;
